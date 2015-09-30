@@ -1,0 +1,228 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+	font-family: 'Muli', sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	height: 100%;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6f8+0,b5c6d0+52,e0eff9+100 */
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f2f6f8 0%, #b5c6d0 52%, #e0eff9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f6f8), color-stop(52%,#b5c6d0), color-stop(100%,#e0eff9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f6f8 0%,#b5c6d0 52%,#e0eff9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f6f8 0%,#b5c6d0 52%,#e0eff9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f6f8 0%,#b5c6d0 52%,#e0eff9 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f2f6f8 0%,#b5c6d0 52%,#e0eff9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+}
+a {
+	text-decoration: none;
+	color: #0999FF;
+}
+ul {
+	padding: 0;
+}
+.top-navigation {
+	text-align: center;
+	width: 100%;
+	height: 11rem;
+	background-color: #FFFFFF;
+	float: left;
+	position: fixed;
+	margin-bottom: 3rem;
+
+	-webkit-box-shadow: 0px 60px 90px -11px rgba(50, 50, 50, 0.25);
+	box-shadow:         0px 60px 90px -11px rgba(50, 50, 50, 0.25);
+}
+.name {
+	font-size: 3rem;
+	font-weight: 600;
+	font-style: italic;
+	vertical-align: middle;
+	line-height: 6rem;
+	margin: 0;
+}
+.icons {
+	margin: 0 0 2rem 0;
+}
+.icons > li {
+    display: inline-block;
+    border: 1px solid #0999FF;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    vertical-align: middle;
+    margin: -0.3rem 5px 0.2rem;
+}
+
+.icons li > a {
+    color: black;
+    font-size: 2rem;
+}
+.intro {
+	text-align: left;
+	width: 80%;
+	margin: 0 auto 4rem;
+	padding-top: 14rem;
+}
+.image {
+	width: 500px;
+}
+.portfolio {
+	text-align: left;
+	width: 80%;
+	margin: 6rem auto;
+}
+.case {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	margin: 3rem auto;	
+	outline: #EEEEEE solid 1px;
+	padding: 0 1rem 1rem;
+}
+.case h2 {
+	font-size: 2rem;
+	margin-bottom: 0;
+}
+.case h3 {
+	font-size: 1.5rem;
+	color: #044C7F;
+	margin-top: 0;
+}
+.case p {
+	text-align: left;
+}
+
+
+@media screen and (max-width: 450px) {
+	.top-navigation {
+		height: 7rem;
+	}
+	.name {
+		font-size: 1rem;
+		line-height: 4rem;
+	}
+	.icons {
+		margin: 0 0 2rem 0;
+	}
+	.icons > li {
+    	display: inline-block;
+    	width: 2rem;
+    	height: 2rem;
+    	line-height: 2rem;   
+    	margin: -0.3rem 5px 0.2rem;
+	}
+	.icons li > a {
+    	font-size: 1rem;
+	}
+	.intro {
+		margin: 0 auto;
+		padding-top: 9rem;
+	}
+	.portfolio {
+		width: 70%;
+		margin: 2rem auto;
+	}
+	.image {
+	width: 180px;
+	}
+}
+
+@media screen and (min-width: 451px) and (max-width: 800px) {
+	.top-navigation {
+		height: 9rem;
+	}
+	.name {
+		font-size: 1.5rem;
+		line-height: 5rem;
+	}
+	.icons {
+		margin: 0 0 2rem 0;
+	}
+	.icons > li {
+    	display: inline-block;
+    	width: 3rem;
+    	height: 3rem;
+    	line-height: 3rem;   
+    	margin: -0.3rem 5px 0.2rem;
+	}
+	.icons li > a {
+    	font-size: 2rem;
+	}
+	.intro {
+		padding-top: 10rem;
+	}
+	.portfolio {
+		margin: 2rem auto;
+	}
+	.image {
+	width: 300px;
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+	.name {
+	font-size: 3rem;
+	line-height: 6rem;
+	}
+	.icons {
+		margin: 0 0 2rem 0;
+	}
+	.icons > li {
+    	display: inline-block;
+    	width: 3rem;
+    	height: 3rem;
+    	line-height: 3rem;   
+    	margin: -0.3rem 5px 0.2rem;
+	}
+	.icons li > a {
+    	font-size: 2rem;
+	}
+}
+
+@media screen and (min-width: 1001px) and (max-width: 2400px) {
+	.top-navigation {
+		height: 9rem;
+	}
+	.name {
+	font-size: 2rem;
+	line-height: 5rem;
+	}
+	.icons {
+		margin: 0 0 2rem 0;
+	}
+	.icons > li {
+    	display: inline-block;
+    	width: 3rem;
+    	height: 3rem;
+    	line-height: 3rem;   
+    	margin: -0.3rem 5px 0.2rem;
+	}
+	.icons li > a {
+    	font-size: 2rem;
+	}
+	.intro {
+		width: 50%;
+		padding-top: 9rem;
+	}
+	.portfolio {
+		width: 50%;
+		margin: 2rem auto;
+	}
+}
