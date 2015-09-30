@@ -140,7 +140,7 @@ ul {
 		margin: 2rem auto;
 	}
 	.image {
-	width: 180px;
+		width: 180px;
 	}
 }
 
@@ -166,13 +166,13 @@ ul {
     	font-size: 2rem;
 	}
 	.intro {
-		padding-top: 10rem;
+		padding-top: 11rem;
 	}
 	.portfolio {
 		margin: 2rem auto;
 	}
 	.image {
-	width: 300px;
+		width: 300px;
 	}
 }
 
@@ -201,8 +201,8 @@ ul {
 		height: 9rem;
 	}
 	.name {
-	font-size: 2rem;
-	line-height: 5rem;
+		font-size: 2rem;
+		line-height: 5rem;
 	}
 	.icons {
 		margin: 0 0 2rem 0;
@@ -219,7 +219,7 @@ ul {
 	}
 	.intro {
 		width: 50%;
-		padding-top: 9rem;
+		padding-top: 11rem;
 	}
 	.portfolio {
 		width: 50%;
