@@ -157,13 +157,13 @@ ul {
 	}
 	.icons > li {
     	display: inline-block;
-    	width: 3rem;
-    	height: 3rem;
-    	line-height: 3rem;   
+    	width: 2.5rem;
+    	height: 2.5rem;
+    	line-height: 2.5rem;   
     	margin: -0.3rem 5px 0.2rem;
 	}
 	.icons li > a {
-    	font-size: 2rem;
+    	font-size: 1.75rem;
 	}
 	.intro {
 		padding-top: 11rem;
