@@ -74,6 +74,12 @@ ul {
     color: black;
     font-size: 2rem;
 }
+.me-image {
+	width: 135px;
+	height: 135px;
+	float: left;
+	margin-right: 1rem;
+}
 .intro {
 	text-align: left;
 	width: 80%;
@@ -82,6 +88,10 @@ ul {
 }
 .image {
 	width: 500px;
+}
+.image-mobile {
+	width: 150px;
+	margin: 0 2rem 1.75rem 0;
 }
 .portfolio {
 	text-align: left;
@@ -93,8 +103,8 @@ ul {
 	text-align: center;
 	width: 100%;
 	margin: 3rem auto;	
-	outline: #EEEEEE solid 1px;
-	padding: 0 1rem 1rem;
+	outline: #FFFFFF solid 2px;
+	padding: 0 1rem 2rem;
 }
 .case h2 {
 	font-size: 2rem;
