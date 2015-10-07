@@ -39,200 +39,210 @@ ul {
 .top-navigation {
 	text-align: center;
 	width: 100%;
-	height: 11rem;
+	height: 6em;
 	background-color: #FFFFFF;
 	float: left;
 	position: fixed;
-	margin-bottom: 3rem;
+	z-index: 9999;
 
 	-webkit-box-shadow: 0px 60px 90px -11px rgba(50, 50, 50, 0.25);
 	box-shadow:         0px 60px 90px -11px rgba(50, 50, 50, 0.25);
 }
 .name {
-	font-size: 3rem;
+	font-size: 1em;
 	font-weight: 600;
 	font-style: italic;
 	vertical-align: middle;
-	line-height: 6rem;
+	line-height: 3em;
 	margin: 0;
 }
 .icons {
-	margin: 0 0 2rem 0;
+	margin: 0 0 1em 0;
 }
 .icons > li {
     display: inline-block;
     border: 1px solid #0999FF;
     border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
-    line-height: 4rem;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
     vertical-align: middle;
-    margin: -0.3rem 5px 0.2rem;
+    margin: -0.3em 5px 0.2em;
 }
-
 .icons li > a {
     color: black;
-    font-size: 2rem;
+    font-size: 1em;
+}
+.banner {
+  position: absolute;
+  padding-top: 5em;
+  z-index: 9000;
+}
+.glass {
+  width: 115%;
+  height: 2em;
+  margin: 0 auto;
+  margin-left: -2em;
 }
 .me-image {
-	width: 150px;
-	height: 163px;
+	width: 135px;
+	height: 146px;
 	float: left;
-	margin-right: 1rem;
+	border-radius: 5px;
+	margin: 0 7em 1em 0;
 }
 .intro {
-	text-align: left;
+	text-align: justify;
 	width: 80%;
-	margin: 0 auto 2rem;
-	padding-top: 14rem;
+	margin: 0 auto 2em;
+	padding-top: 8em;
 }
 .image {
-	width: 500px;
+	width: 200px;
 }
 .image-mobile {
 	width: 150px;
-	margin: 0 2rem 1.75rem 0;
+	margin: 1em auto;
 }
 .portfolio {
 	text-align: left;
 	width: 80%;
-	margin: 4rem auto;
+	margin: 0 auto;
 }
 .case {
 	display: inline-block;
 	text-align: center;
 	width: 100%;
-	margin: 3rem auto;	
+	margin: 1em auto;	
 	outline: #FFFFFF solid 2px;
-	padding: 0 1rem 2rem;
+	padding: 0 1em 2em;
 }
 .case h2 {
-	font-size: 2rem;
+	font-size: 1.5em;
 	margin-bottom: 0;
 }
 .case h3 {
-	font-size: 1.5rem;
+	font-size: 1.25em;
 	color: #044C7F;
 	margin-top: 0;
 }
 .case p {
-	text-align: left;
+	text-align: justify;
 }
 
-
-@media screen and (max-width: 450px) {
-	.top-navigation {
-		height: 7rem;
-	}
+@media (min-width: 350px) {
 	.name {
-		font-size: 1rem;
-		line-height: 4rem;
-	}
+    font-size: 1.25em;
+  }
 	.icons {
-		margin: 0 0 2rem 0;
+		margin: 0 0 2em 0;
 	}
 	.icons > li {
     	display: inline-block;
-    	width: 2rem;
-    	height: 2rem;
-    	line-height: 2rem;   
-    	margin: -0.3rem 5px 0.2rem;
+    	width: 2em;
+    	height: 2em;
+    	line-height: 2em;   
+    	margin: -0.3em 5px 0.2em;
 	}
 	.icons li > a {
-    	font-size: 1rem;
+    	font-size: 1em;
+	}
+	.me-image {
+		margin: 0 15em 1em 0;
 	}
 	.intro {
 		margin: 0 auto;
-		padding-top: 9rem;
+		padding-top: 8em;
 	}
 	.portfolio {
 		width: 70%;
-		margin: 2rem auto;
+		margin: 2em auto;
 	}
 	.image {
-		width: 180px;
+		width: 275px;
 	}
 }
 
-@media screen and (min-width: 451px) and (max-width: 800px) {
+@media (min-width: 450px) {
 	.top-navigation {
-		height: 9rem;
+		height: 8em;
 	}
 	.name {
-		font-size: 1.5rem;
-		line-height: 5rem;
+		font-size: 1.5em;
+		line-height: 3em;
 	}
 	.icons {
-		margin: 0 0 2rem 0;
+		margin: 0 0 2em 0;
 	}
 	.icons > li {
     	display: inline-block;
-    	width: 2.5rem;
-    	height: 2.5rem;
-    	line-height: 2.5rem;   
-    	margin: -0.3rem 5px 0.2rem;
+    	width: 2.5em;
+    	height: 2.5em;
+    	line-height: 2.5em;   
+    	margin: -0.3em 5px 0.2em;
 	}
 	.icons li > a {
-    	font-size: 1.75rem;
+    	font-size: 1.75em;
+	}
+	.banner {
+		padding-top: 7em;
+	}
+	.me-image {
+		margin: 0 1em 1em 0;
 	}
 	.intro {
-		padding-top: 11rem;
+		padding-top: 10em;
 	}
 	.portfolio {
-		margin: 2rem auto;
+		width: 70%;
 	}
 	.image {
-		width: 300px;
+		width: 275px;
 	}
 }
 
-@media screen and (min-width: 801px) and (max-width: 1000px) {
+@media (min-width: 800px) {
 	.name {
-	font-size: 3rem;
-	line-height: 6rem;
+		font-size: 2em;
+		line-height: 2.5em;
 	}
 	.icons {
-		margin: 0 0 2rem 0;
-	}
-	.icons > li {
-    	display: inline-block;
-    	width: 3rem;
-    	height: 3rem;
-    	line-height: 3rem;   
-    	margin: -0.3rem 5px 0.2rem;
-	}
-	.icons li > a {
-    	font-size: 2rem;
-	}
-}
-
-@media screen and (min-width: 1001px) and (max-width: 2400px) {
-	.top-navigation {
-		height: 9rem;
-	}
-	.name {
-		font-size: 2rem;
-		line-height: 5rem;
-	}
-	.icons {
-		margin: 0 0 2rem 0;
-	}
-	.icons > li {
-    	display: inline-block;
-    	width: 3rem;
-    	height: 3rem;
-    	line-height: 3rem;   
-    	margin: -0.3rem 5px 0.2rem;
-	}
-	.icons li > a {
-    	font-size: 2rem;
+		margin: 0 0 2em 0;
 	}
 	.intro {
-		width: 50%;
-		padding-top: 11rem;
+		width: 65%;
+		padding-top: 11em;
 	}
 	.portfolio {
-		width: 50%;
-		margin: 2rem auto;
+		width: 65%;
+	}
+	.case h2 {
+	font-size: 2em;
+	}
+	.image {
+		width: 400px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.intro {
+		width: 55%;
+	}
+	.portfolio {
+		width: 55%;
+	}
+}
+@media (min-width: 1200px) {
+	.intro {
+		width: 40%;
+	}
+	.portfolio {
+		width: 40%;
+	}
+	.image {
+		width: 500px;
+	}
+	.image-mobile {
+		margin-right: 2em;
 	}
 }
