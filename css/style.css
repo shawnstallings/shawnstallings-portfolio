@@ -74,15 +74,15 @@ ul {
     font-size: 1em;
 }
 .banner {
-  position: absolute;
-  padding-top: 5em;
-  z-index: 9000;
+    position: absolute;
+    padding-top: 5em;
+    z-index: 9000;
 }
 .glass {
-  width: 115%;
-  height: 2em;
-  margin: 0 auto;
-  margin-left: -2em;
+    width: 115%;
+    height: 2em;
+    margin: 0 auto;
+    margin-left: -2em;
 }
 .me-image {
 	width: 135px;
@@ -97,16 +97,23 @@ ul {
 	margin: 0 auto 2em;
 	padding-top: 8em;
 }
-.image {
-	width: 200px;
-}
 .image-mobile {
-	width: 150px;
+	width: 125px;
 	margin: 1em auto;
 }
+.images img {
+	width: 100%;
+}
+.first-image {
+	display: block;
+	width: 70%;
+	margin: 1em auto;
+}
+.second-image {
+	display: block;
+}
 .portfolio {
-	text-align: left;
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 .case {
@@ -128,11 +135,12 @@ ul {
 }
 .case p {
 	text-align: justify;
+	margin: 1em;
 }
 
 @media (min-width: 350px) {
 	.name {
-    font-size: 1.25em;
+    	font-size: 1.25em;
   }
 	.icons {
 		margin: 0 0 2em 0;
@@ -155,11 +163,19 @@ ul {
 		padding-top: 8em;
 	}
 	.portfolio {
-		width: 70%;
+		width: 80%;
 		margin: 2em auto;
 	}
-	.image {
-		width: 275px;
+	.images img {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.first-image {
+		width: 70%;
+		margin: 1em auto;
+	}
+	.case p {
+		margin: 2em;
 	}
 }
 
@@ -196,8 +212,12 @@ ul {
 	.portfolio {
 		width: 70%;
 	}
-	.image {
-		width: 275px;
+	.images img {
+		width: 80%;
+	}
+	.first-image {
+		width: 70%;
+		margin: 2em auto;
 	}
 }
 
@@ -217,10 +237,14 @@ ul {
 		width: 65%;
 	}
 	.case h2 {
-	font-size: 2em;
+		font-size: 2em;
 	}
-	.image {
-		width: 400px;
+	.images {
+		width: 70%;
+		margin: 1em auto;
+	}
+	.first-image {
+		width: 60%;
 	}
 }
 
@@ -231,7 +255,11 @@ ul {
 	.portfolio {
 		width: 55%;
 	}
+	.case p {
+		margin: 2.5em;
+	}
 }
+
 @media (min-width: 1200px) {
 	.intro {
 		width: 40%;
@@ -239,10 +267,13 @@ ul {
 	.portfolio {
 		width: 40%;
 	}
-	.image {
-		width: 500px;
+}
+
+@media (min-width: 1600px) {
+	.images {
+		margin: 2em auto;
 	}
-	.image-mobile {
-		margin-right: 2em;
+	.case p {
+		margin: 3em 4em;
 	}
 }
